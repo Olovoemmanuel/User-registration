@@ -1,0 +1,26 @@
+{% load crispy_forms_tags %}
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'style.css' %}">
+</head>
+<body>
+    <div class="box">
+        <h1 class="fs-2 ">Registration</h1>
+        <form method="POST" class="form-group">
+            {% csrf_token %}
+            {{form|crispy}}
+            <div class="a"><button type="submit" class="btn btn-primary">Register</button></div>
+            <p class="text-center">If you already have an account, <a href="/login">login</a> instead.</p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: olovoemmanuel@yahoo.com
+Date: Mon, 27 Mar 2023 11:58:56 -0000
+Message-ID: <167991833669.1860.15384031580015893235@DESKTOP-FDFLC09>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/reset/MTM/blq1e8-0b582a9a942efe6005253d77c8815ada/
+
+Your username, in case you’ve forgotten: olovoemmanuel
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

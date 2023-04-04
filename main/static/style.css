@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(248, 242, 242);
+}
+h1{
+    text-align: center;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    background-color: white;
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+ul {
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+@media (max-width:850px) {
+.box {
+    width: 70vw;
+}
+@media (max-width:605px) {
+.box {
+    width: 90vw;
+}
+}
+
+}
