@@ -20,8 +20,11 @@ h1{
     border-radius: 10px;
     border: 1px solid grey;
 }
-.form-text > ul{
-    display: none;
+.form-text {
+    display:none
+}
+button {
+    margin-top: 0.5rem;
 }
 a {
     text-decoration: none;

@@ -11,8 +11,8 @@ from django.contrib.auth.tokens import default_token_generator
 from django.utils.encoding import force_bytes
 from django.contrib import messages
 import os
-import dotenv
-dotenv.read_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 
 
 # Create your views here.
